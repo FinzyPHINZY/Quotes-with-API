@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: rgb(255, 17, 17);
+}
+
+.container {
+  width: 90vmin;
+  border-radius: 10px;
+  position: absolute;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  background: #fff;
+}
+
+h1 {
+  text-transform: capitalize;
+  text-align: center;
+
+  margin-top: 2rem;
+}
+
+.box {
+  padding: 80px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  padding: 1rem 2rem;
+}
+
+h3 {
+  font-size: 1rem;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+p {
+  font-style: italic;
+  text-align: center;
+}
